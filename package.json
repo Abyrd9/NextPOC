@@ -1,0 +1,26 @@
+{
+  "name": "nextpoc",
+  "version": "1.0.0",
+  "description": "POC static site generator with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "static": "next build && next export"
+  },
+  "author": "Andrew Byrd",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^6.1.1",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.2"
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.11"
+  }
+}
